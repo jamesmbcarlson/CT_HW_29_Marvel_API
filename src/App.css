@@ -38,8 +38,23 @@ h1 {
   display: block;
 }
 
+.vertical-line {
+  position: absolute;
+  background-color: rgb(99, 135, 235);
+  width: 1px;
+
+  top: 80px;
+  bottom: 380px;
+  left: 380px;
+}
+
 @media screen and (max-width: 600px) {
   .body-content {
     display:block;
+    padding-bottom: 1px;
+  }
+
+  .vertical-line {
+    width: 0px;
   }
 }

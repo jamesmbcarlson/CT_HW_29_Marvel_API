@@ -15,6 +15,10 @@ function CharacterDetail({characterIdDetail, onClose}) {
     useEffect(() => {
         const fetchCharacter = async (id) => {
             if (id !== null) {
+                if(window.matchMedia("(max-width: 600px)").matches){
+                    scroll(0,400);
+                }
+
                 console.log(id);
                 const response = await axios.get(`https://gateway.marvel.com/v1/public/characters/${id}?ts=1&apikey=7d688b5e0e4aa54d476269d9a8d66ff3&hash=2971945741b8323fdd1eaeb3085f716e`);
                 console.log(response);

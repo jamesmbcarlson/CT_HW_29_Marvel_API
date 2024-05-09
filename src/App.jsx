@@ -28,9 +28,14 @@ function App() {
         <CharacterDetail characterIdDetail={selectedCharacter} onClose={handleCharacterSelect}/> 
       </>}
       <CharacterList onCharacterSet={handleCharacterSelect} />
+      <div className='vertical-line'></div>
     </div>
     </>
   )
 }
 
 export default App
+
+
+
+      

@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <div className='body-header'>
-      <img src='./src/assets/images/logo_shield.png'/>
+      <div className='logo-container'></div>
       <h1>SHIELD Database</h1>
     </div>
     <div className='body-content'>

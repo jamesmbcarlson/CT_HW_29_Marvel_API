@@ -18,8 +18,12 @@
   padding: 48px;
 }
 
-.body-header img {
+.logo-container {
+  margin: 0px auto;
   width: 320px; 
+  height: 320px;
+  background-image: url('./assets/images/logo_shield.png');
+  background-size: 320px;
 }
 
 h1 {
